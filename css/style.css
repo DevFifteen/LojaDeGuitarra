@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{ 
+    height: 100%;
+}
+
+body{
+    background-image: url('../images/guitar-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Ubuntu';
+}
+
+@font-face{
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'ComicNeue';
+    src: url('../fonts/ComicNeue-Regular.ttf');
+}
+
+.clear{
+    clear: both;
+}
+
+.menu{
+    background-color: white;
+    margin: 0 auto;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.menu a{
+    text-decoration: none;
+	color: black;
+	font-size: 30px;
+    margin-right: 20px;
+    padding-right: 3px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu a:hover{
+	color:#f7bb14;
+	border-bottom: 2px solid #f7bb14;
+    padding-bottom: 8px;
+}
+
+.guitar-marca{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    width: 33.3%;
+    margin: 100px auto;
+    margin-left: 17px;
+    margin-right: 17px;
+    float: left;
+}
+
+.guitar-marca li{
+    list-style: inside;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.guitar-marca h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+section div:last-child{
+    float: right;
+}
+
+@media screen and (max-width: 1036px){
+    .guitar-marca{
+        width: 50%;
+        margin: 100px auto;
+        margin-left: 17px;
+        margin-right: 17px;
+        float: none;
+        margin-bottom: -70px;
+    }
+
+    section div:last-child{
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .menu{
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 753px){
+    .menu a{
+        font-size: 28px;
+        margin-right: 10px;
+        padding-right: 3px;
+    }
+}
+
+@media screen and (max-width: 701px){
+    .guitar-marca h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .menu a{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 612px){
+    .guitar-marca h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .menu a{
+        font-size: 26px;
+        margin-right: 10px;
+        padding-right: 2px;
+    }
+
+    .guitar-marca li{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .guitar-marca h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+}
+
